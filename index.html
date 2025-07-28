@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Rock Paper Scissor</title>
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <script src="scripts.js"></script>
+<div class="game-box">
+  <h1>Rock Paper Scissors</h1>
+  <div class="scoreboard">
+    <p id="player-score">Player: 0</p>
+    <p id="computer-score">Computer: 0</p>
+  </div>
+
+  <div class="buttons">
+    <button id="rock">Rock</button>
+    <button id="paper">Paper</button>
+    <button id="scissors">Scissors</button>
+  </div>
+
+<button id="reset">Reset Game</button>
+
+  <div id="result"></div>
+</div>
+  <script src="scripts.js" defer></script>
 </body>
 </html>
