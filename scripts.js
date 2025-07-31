@@ -40,10 +40,10 @@ function updateScores() {
 
 function checkWinner() {
   if (playerScore === 5) {
-    resultDiv.textContent = '🎉 You won the game!';
+    resultDiv.textContent =  'You won the game!';
     disableButtons();
   } else if (computerScore === 5) {
-    resultDiv.textContent = '😞 Computer won the game!';
+    resultDiv.textContent = 'Computer won the game!';
     disableButtons();
   }
 }
